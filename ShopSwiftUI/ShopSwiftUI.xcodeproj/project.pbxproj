@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53D3EFBDDB8EDA667507B0B8 /* Pods_ShopSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B4FC49A4C318E902D99679 /* Pods_ShopSwiftUI.framework */; };
 		58BE7A0629BFC37100F9A8DF /* ShopSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BE7A0529BFC37100F9A8DF /* ShopSwiftUIApp.swift */; };
 		58BE7A0829BFC37100F9A8DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BE7A0729BFC37100F9A8DF /* ContentView.swift */; };
 		58BE7A0A29BFC37400F9A8DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58BE7A0929BFC37400F9A8DF /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		053011E9503BF8D2254E3FF5 /* Pods-ShopSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-ShopSwiftUI/Pods-ShopSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
 		58BE7A0229BFC37100F9A8DF /* ShopSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58BE7A0529BFC37100F9A8DF /* ShopSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopSwiftUIApp.swift; sourceTree = "<group>"; };
 		58BE7A0729BFC37100F9A8DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +25,8 @@
 		58BE7A0C29BFC37400F9A8DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		58BE7A0E29BFC37400F9A8DF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		58BE7A1129BFC37400F9A8DF /* ShopSwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShopSwiftUI.xcdatamodel; sourceTree = "<group>"; };
+		B7B4FC49A4C318E902D99679 /* Pods_ShopSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF7234578067C54101C2CD8B /* Pods-ShopSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-ShopSwiftUI/Pods-ShopSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53D3EFBDDB8EDA667507B0B8 /* Pods_ShopSwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +46,8 @@
 			children = (
 				58BE7A0429BFC37100F9A8DF /* ShopSwiftUI */,
 				58BE7A0329BFC37100F9A8DF /* Products */,
+				D0910A59D6D3AB76DD270C46 /* Pods */,
+				B16D8A20A5ECCD81E49DE5C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +80,24 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B16D8A20A5ECCD81E49DE5C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7B4FC49A4C318E902D99679 /* Pods_ShopSwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0910A59D6D3AB76DD270C46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF7234578067C54101C2CD8B /* Pods-ShopSwiftUI.debug.xcconfig */,
+				053011E9503BF8D2254E3FF5 /* Pods-ShopSwiftUI.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -80,6 +105,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58BE7A1529BFC37400F9A8DF /* Build configuration list for PBXNativeTarget "ShopSwiftUI" */;
 			buildPhases = (
+				30D6D651B0C291D4ECDB750B /* [CP] Check Pods Manifest.lock */,
 				58BE79FE29BFC37100F9A8DF /* Sources */,
 				58BE79FF29BFC37100F9A8DF /* Frameworks */,
 				58BE7A0029BFC37100F9A8DF /* Resources */,
@@ -137,6 +163,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30D6D651B0C291D4ECDB750B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShopSwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		58BE79FE29BFC37100F9A8DF /* Sources */ = {
@@ -269,6 +320,7 @@
 		};
 		58BE7A1629BFC37400F9A8DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF7234578067C54101C2CD8B /* Pods-ShopSwiftUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,6 +349,7 @@
 		};
 		58BE7A1729BFC37400F9A8DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 053011E9503BF8D2254E3FF5 /* Pods-ShopSwiftUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
